@@ -15,7 +15,7 @@ with source as (
         c_phone as lease_phone_number,
         c_acctbal as lease_account_balance,
         c_mktsegment as lease_market_segment,
-        c_comment as lease_comment
+        c_comment as lease_comment_new
 
     from source
 
