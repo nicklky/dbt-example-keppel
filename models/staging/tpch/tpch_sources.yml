@@ -187,6 +187,9 @@ sources:
 
       - name: region
         description: region mapping
+        tests: 
+          - dbt_expectations.expect_table_row_count_to_equal:
+              value: 5
         columns:
           - name: r_regionkey
             description: 5 regions are populated
